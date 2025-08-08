@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/output.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Dev House - Alugue ou compre sua casa</title>
 </head>
-<body>
-    
+<body class="bg-slate-200">
+    <div class="w-full flex">
+        <!-- Sidebar -->
+        <aside class="hidden w-full sm:flex max-w-[200px] min-h-screen relative bg-white flex-col px-2 py-5">
+            <div class="fixed">
+                <div>
+                    <h1 class="text-rose-500 text-3xl font-bold">DevHouse</h1>
+                </div>
+
+                <nav class="flex flex-col mt-8">
+                    <a href="#" class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Aluguel</a>
+                    <a href="#" class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Compra</a>
+                    <a href="#" class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Serviços</a>
+                    <a href="#" class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Contatos</a>
+                </nav>
+            </div>
+
+            <button class="w-11 h-11 rounded-full bg-gray-100 fixed z-30 bottom-5 left-4 hover:bg-gray-200 duration-200">
+                <i class="fa fa-phone" style="font-size: 16px;"></i>
+            </button>
+        </aside>
+    </div>
 </body>
 </html>
